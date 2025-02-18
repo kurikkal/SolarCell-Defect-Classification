@@ -25,6 +25,24 @@ cd SolarCell-Defect-Classification
 ### **2. Install Dependencies**
 Ensure you have Python 3.7 installed, then run:
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
+### **3. Extract the Dataset**
+Since the dataset is uploaded as `images.zip`, you need to extract it:
+```bash
+cd data/
+unzip images.zip
+```
+This will extract the contents into the `data/images/` directory.
+
+
+### **4. Run the Training Script**
+Once the dataset is ready, you can start training the model by running the training script:
+```bash
+python3 src/training/train.py
+```
+This will train the model using the provided dataset, and logs will be saved for analysis.
+
+
+---
