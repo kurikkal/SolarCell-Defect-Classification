@@ -12,3 +12,19 @@ This project focuses on detecting defects in solar cells using electroluminescen
 We use a **ResNet-based Convolutional Neural Network (CNN)** implemented in PyTorch to classify images of solar cells into these categories.
 
 ---
+
+
+## Installation
+
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/kurikkal/SolarCell-Defect-Classification.git
+cd SolarCell-Defect-Classification
+```
+
+### **2. Install Dependencies**
+Ensure you have Python 3.7 installed, then run:
+```bash
+pip install -r requirements.txt
+```
+
